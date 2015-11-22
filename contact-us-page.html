@@ -107,13 +107,15 @@
 						<div class="col-sm-4">
 							<h5>Questions? Comments?&nbsp;</h5>
 							<div class="form-wrapper clearfix">
-								<form class="form-contact email-form">
+								<form class="form-contact email-form" >
 									<div class="inputs-wrapper">
 										<input class="form-name validate-required" type="text" placeholder="Name" name="name">
 										<input class="form-email validate-required validate-email" type="text" placeholder="Email Address" name="email">
 										<textarea class="form-message validate-required" name="message" placeholder="Your Message"></textarea>
 									</div>
-									<input type="submit" class="send-form" value="Submit">
+									<label>*What is 2+2? (Anti-spam)</label>
+									<input name="human" placeholder="Type Here">
+									<input type="submit" name="submit" class="send-form" value="Submit">
 									<div class="form-success">
 										<span class="text-white">Message sent - Thank you for your time!</span>
 									</div>
@@ -121,6 +123,7 @@
 										<span class="text-white">Please complete all fields</span>
 									</div>
 								</form>
+
 							</div>
 						</div>
 					</div>
