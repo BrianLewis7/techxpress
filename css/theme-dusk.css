@@ -1,5 +1,10 @@
 .bg-primary {
-  background-color: #c0ca55 !important;
+/*  background-color: #c0ca55 !important;
+*/  background-image: url("../img/DeskTop.jpg")!important;
+background-repeat: no-repeat!important;
+width: 100% !important;
+
+
 }
 .bg-secondary-1 {
   background-color: #6c9380 !important;
@@ -1607,7 +1612,8 @@ img.phone-portrait {
   top: 10px;
 }
 .strip .signup-email-field {
-  background: none;
+background-color: rgba(255, 255, 255, 0.3);
+padding: 10px;
   border: none;
   box-shadow: none;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2301,7 +2307,9 @@ input[type="submit"] {
 }
 .strip .mail-list-signup input[type="submit"] {
   background: none;
-  border: 2px solid #fff;
+  background-color: #c0ca55 ;
+  font-size: 1em;
+  border: 1px solid #c0ca55;
 }
 .contact-center p.lead {
   font-size: 18px;
@@ -4221,7 +4229,7 @@ footer.short-2 .contact-action:hover {
 .boxed-layout .main-container,
 .boxed-layout .footer-container,
 .boxed-layout nav {
-  max-width: 1280px;
+  max-width: 1380px;
   margin: 0 auto;
   left: 0;
   right: 0;
