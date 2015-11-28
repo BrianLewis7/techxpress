@@ -507,14 +507,14 @@ nav hr {
 .menu li a {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #777777;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
-  padding-bottom: 40px;
+ 
   display: inline-block;
   line-height: 14px;
 }
@@ -3173,7 +3173,9 @@ footer.short-2 .contact-action:hover {
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .top-bar {
-    position: absolute;
+	position: absolute;
+	left: 3px;
+	background-color: rgba(255, 255, 255, 0.9);
   }
   .utility-menu {
     display: none;
